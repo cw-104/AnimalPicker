@@ -26,6 +26,11 @@ public class AnimalPicker {
                             " _._     _,-\'\"\"`-._\n(,-.`._,\'(       |\\`-/|\n    `-.-\' \\ )-`( , o o)\n          `-    \\`_`\"\'-");
                     choice = true;
                     break;
+                case "fish":
+                    System.out.println(
+                            "      /`·.¸\n     /¸...¸`:·\n ¸.·´  ¸   `·.¸.·´)\n: © ):´;      ¸  {\n `·.¸ `·  ¸.·´\\`·¸)\n     `\\\\´´\\¸.·´");
+                    choice = true;
+                    break;
                 default:
                     System.out.println("Invalid Animal, please choose another.");
                     System.out.println("Restarting prompt...");
