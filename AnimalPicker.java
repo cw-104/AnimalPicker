@@ -13,10 +13,10 @@ public class AnimalPicker {
         while (!choice) {
             System.out.println("Enter an animal.");
             System.out.println();
-            String userAnimal = input.nextLine();
+            animal = input.nextLine();
             System.out.println();
 
-            switch (userAnimal.trim().toLowerCase()) {
+            switch (animal.trim().toLowerCase()) {
                 case "dog":
                     System.out.println(" DOG ASCII HERE");
                     choice = true;
