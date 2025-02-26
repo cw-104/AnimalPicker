@@ -10,6 +10,27 @@ public class AnimalPicker {
         String animal;
         boolean choice = false;
 
+        while (!choice) {
+            System.out.println("Enter an animal.");
+            System.out.println();
+            animal = input.nextLine();
+            System.out.println();
+
+            switch (animal.trim().toLowerCase()) {
+                case "dog":
+                    System.out.println(" DOG ASCII HERE");
+                    choice = true;
+                    break;
+                case "cat":
+                    System.out.println("CAT ASCII HERE");
+                    choice = true;
+                    break;
+                default:
+                    System.out.println("Invalid Animal");
+                    System.out.println();
+            }
+        }
+
     }
 
 }
