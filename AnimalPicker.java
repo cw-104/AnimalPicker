@@ -27,6 +27,7 @@ public class AnimalPicker {
                     break;
                 default:
                     System.out.println("Invalid Animal, please choose another.");
+                    System.out.println("Restarting prompt...");
                     System.out.println();
             }
         }
