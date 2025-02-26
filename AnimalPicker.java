@@ -18,11 +18,12 @@ public class AnimalPicker {
 
             switch (animal.trim().toLowerCase()) {
                 case "dog":
-                    System.out.println(" DOG ASCII HERE");
+                    System.out.println("            __\n(\\,--------\'()\'--o\n (_    ___    /~\"\n  (_)_)  (_)_)");
                     choice = true;
                     break;
                 case "cat":
-                    System.out.println("CAT ASCII HERE");
+                    System.out.println(
+                            " _._     _,-\'\"\"`-._\n(,-.`._,\'(       |\\`-/|\n    `-.-\' \\ )-`( , o o)\n          `-    \\`_`\"\'-");
                     choice = true;
                     break;
                 default:
