@@ -26,7 +26,7 @@ public class AnimalPicker {
                     choice = true;
                     break;
                 default:
-                    System.out.println("Invalid Animal");
+                    System.out.println("Invalid Animal, please choose another.");
                     System.out.println();
             }
         }
